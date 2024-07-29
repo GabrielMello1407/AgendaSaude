@@ -30,6 +30,8 @@
     "prettier"
   ],
   "rules": {
+    "@typescript-eslint/no-unused-vars": ["warn", 
+    { "args": "none" }],
     "react-hooks/rules-of-hooks": "off",
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",

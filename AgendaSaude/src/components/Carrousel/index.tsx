@@ -84,7 +84,7 @@ const Carousel: React.FC = () => {
         console.log("Intervalo limpo ao desmontar o componente");
       }
     };
-  }, [currentPage]);
+  }, [currentPage, handleNextPage]);
 
   return (
     <>

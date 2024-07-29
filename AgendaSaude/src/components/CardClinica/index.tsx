@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+import Image from "next/image";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
 
 import { IClinica } from "@/shared/interfaces/IClinica";
@@ -36,7 +37,7 @@ export default function CardClinica({ clinica }: CardClinicaProps) {
 
   return (
     <div className="m-0 w-48 overflow-hidden p-0">
-      <img src={clinica.imagem_url[0]} alt="" className="rounded-t-xl" />
+      <Image src={clinica.imagem_url[0]} alt="" className="rounded-t-xl" />
       <div className="p-2 flex flex-col">
         <div className="mb-2">
           <h3 className=" text-lg font-bold">{clinica.nome}</h3>
