@@ -1,10 +1,10 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-
 import Carrousel from "@/components/Carrousel";
+
 import Section from "@/components/ui/section";
 
 import { Container } from "../components/Container";
 
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Home() {
   return (
     <Container>

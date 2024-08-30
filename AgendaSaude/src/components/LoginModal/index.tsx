@@ -1,12 +1,12 @@
 import React, { ReactNode } from "react";
 
-interface RegisterModalProps {
+interface LoginModalProps {
   isOpen: boolean;
   onClose: () => void;
   children: ReactNode;
 }
 
-const RegisterModal: React.FC<RegisterModalProps> = ({ isOpen, children }) => {
+const LoginModal: React.FC<LoginModalProps> = ({ isOpen, children }) => {
   if (!isOpen) return null;
 
   return (
@@ -18,4 +18,4 @@ const RegisterModal: React.FC<RegisterModalProps> = ({ isOpen, children }) => {
   );
 };
 
-export default RegisterModal;
+export default LoginModal;
