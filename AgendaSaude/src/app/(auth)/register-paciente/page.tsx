@@ -88,9 +88,12 @@ export default function registerPaciente() {
             <div className="w-full  md:pl-10 lg:pl-20">
               <hgroup className="mb-8 flex flex-col gap-4">
                 <Logo imagePath={"/logo_soujunior.png"} />
-                <h3 className=" text-3xl font-semibold"> Cadastro de conta de Paciente</h3>
+                <h3 className=" text-3xl font-semibold">
+                  {" "}
+                  Cadastro de conta de Paciente
+                </h3>
                 <span className=" text-base font-medium">
-                Crie sua conta como paciente.
+                  Crie sua conta como paciente.
                 </span>
               </hgroup>
               <Progress value={progress} className="w-full mt-12  mb-10" />

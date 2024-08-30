@@ -105,7 +105,6 @@ export default function registerClinical() {
                   className=" w-full flex justify-between flex-col gap-28"
                   onSubmit={methods.handleSubmit((e) => onSubmit(e))}
                 >
-
                   {step}
                   <div className="flex items-center gap-4 justify-center ">
                     {!isFirstStep && (
@@ -133,7 +132,6 @@ export default function registerClinical() {
                       )}
                     </Button>
                   </div>
-
                 </form>
               </FormProvider>
             </div>
