@@ -81,12 +81,12 @@ export default function registerClinical() {
             <div className="max-w-[27rem] md:pt-[72px]">
               <hgroup className="mb-4">
                 <h2 className=" text-5xl font-bold text-black leading-[75px]">
-                  Cadastro de clinica
+                  Cadastro de clínica
                 </h2>
               </hgroup>
               <p className="text-lg text-gray-900 font-medium">
                 Crie uma conta para sua clinica no Agenda Saúde para pode
-                exercer a médicana em qualquer lugar do Brasil.
+                exercer a medicina em qualquer lugar do Brasil.
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function registerClinical() {
                 <Logo imagePath={"/logo_soujunior.png"} />
                 <h3 className=" text-3xl font-semibold">Cadastrar</h3>
                 <span className=" text-base font-medium">
-                  Crie sua conta como clinica
+                  Crie sua conta clínica.
                 </span>
               </hgroup>
               <Progress value={progress} className="w-full mt-12  mb-10" />

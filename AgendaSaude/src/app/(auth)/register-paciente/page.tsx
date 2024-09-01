@@ -79,7 +79,7 @@ export default function registerPaciente() {
                 </h2>
               </hgroup>
               <p className="text-lg text-gray-900 font-medium">
-                Crie uma conta de paciente no Agenda Saúde para pode agendar
+                Crie uma conta de paciente no Agenda Saúde para poder agendar
                 consultas médicas em qualquer lugar do Brasil.
               </p>
             </div>
