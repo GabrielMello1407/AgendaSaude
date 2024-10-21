@@ -96,7 +96,7 @@ export default function registerClinical() {
                 <Logo imagePath={"/logo_soujunior.png"} />
                 <h3 className=" text-3xl font-semibold">Cadastrar</h3>
                 <span className=" text-base font-medium">
-                  Crie sua conta clínica.
+                  Crie sua conta como clínica
                 </span>
               </hgroup>
               <Progress value={progress} className="w-full mt-12  mb-10" />
